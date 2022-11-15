@@ -1,0 +1,15 @@
+.date {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10.24px;
+    line-height: 12px;
+    color: #2B283A;
+    text-align: left;
+}
+
+.date_paragraph {
+    margin: 0px;
+    margin-bottom: 9px;
+    margin-top: 7px;
+}

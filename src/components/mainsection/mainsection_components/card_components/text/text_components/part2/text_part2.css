@@ -1,0 +1,15 @@
+.title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #2B283A;
+    text-align: left;
+    top: 7px;
+}
+
+.title_paragraph {
+    margin: 0px;
+    margin-top: 7px;
+}
