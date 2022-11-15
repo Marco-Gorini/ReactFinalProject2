@@ -5,3 +5,8 @@
 .full_card {
     margin-left: 40px;
 }
+
+.line {
+    height: 0px;
+    border: 1px solid #F5F5F5;
+}

@@ -1,11 +1,11 @@
 import React from "react";
 import "./Card.css"
-import Image from "./card_components/image/Image";
-import Text from "./card_components/text/Text";
+import Image from "./cardcomponents/image/Image";
+import Text from "./cardcomponents/text/Text";
 
 export default function Card(props) {
     return (
-        <div className = "card">
+        <div className="card">
             <Image 
                 img = {props.img}
             />

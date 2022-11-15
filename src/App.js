@@ -1,5 +1,4 @@
 
-import './App.css';
 import Navbar from "./components/navbar/Navbar"
 import Mainsection from "./components/mainsection/Mainsection"
 

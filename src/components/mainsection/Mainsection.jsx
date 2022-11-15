@@ -1,12 +1,12 @@
 import React from "react";
 import Data from "./Data";
-import Card from "./mainsection_components/Card"
+import Card from "./mainsectioncomponents/Card"
 import "./Mainsection.css"
 
 export default function Mainsection() {
     const cards = Data.map(item => {
         return (
-            <div className = "full_card">
+            <div className="full_card">
                 <Card 
                 key = {item.id}
                 img = {item.img}
@@ -15,12 +15,12 @@ export default function Mainsection() {
                 date = {item.date}
                 description = {item.description}
                 />
-                <hr></hr>
+                <hr className="line"></hr>
             </div>
         )
     })
     return (
-        <section className = "main_section">
+        <section className="main_section">
             {cards}
         </section>
     );
