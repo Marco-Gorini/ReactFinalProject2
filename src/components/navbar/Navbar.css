@@ -5,10 +5,11 @@ nav {
 }
 
 .navbar {
-    margin-right: 213px;
-    display: inline-flex;
+    display: flex;
     left: 0px;
     top: 0px;
+    justify-content: center;
+    align-items: center;
 }
 
 .world_image {
@@ -21,16 +22,11 @@ nav {
 .div_image {
     width: 24px;
     height: 24px;
-    left: calc(50% - 24px/2 - 50px);
-    top: calc(50% - 24px/2 - 324px);
-    margin-top: 13px;
-    margin-left: 213px;
+
 }
 
 .navbar_paragraph {
-    width: 109px;
-    height: 16px;
-    left: 244px;
+  
     top: 20px;
     font-family: 'Inter';
     font-style: normal;

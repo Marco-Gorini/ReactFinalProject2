@@ -1,19 +1,13 @@
 .part1 {
-    display: inline-flex;
+    display: flex;
     margin-top: 30px;
-    height:9.55px;
 }
 
 .location {
-    width: 7px;
-    height: 9.55px;
-    left: calc(50% - 7px/2 - 87.5px);
-    top: calc(50% - 9.55px/2 - 227.23px); 
+    justify-content: center;
+    align-items: center;
+    display: flex;
     margin-right: 4px;
-}
-
-.image_location {
-    margin-top: 10px;
 }
 
 .nation_paragraph {
