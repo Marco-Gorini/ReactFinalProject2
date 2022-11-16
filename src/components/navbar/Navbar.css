@@ -1,13 +1,16 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 nav {
-    left: 0px;
-    top: 0px;
+    padding: 15.5px;
     background: #F55A5A;
 }
 
 .navbar {
     display: flex;
-    left: 0px;
-    top: 0px;
     justify-content: center;
     align-items: center;
 }
@@ -15,19 +18,9 @@ nav {
 .world_image {
     width: 24px;
     height: 24px;
-    left: calc(50% - 24px/2 - 50px);
-    top: calc(50% - 24px/2 - 324px);
-}
-
-.div_image {
-    width: 24px;
-    height: 24px;
-
 }
 
 .navbar_paragraph {
-  
-    top: 20px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
