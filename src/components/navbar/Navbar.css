@@ -20,6 +20,12 @@ nav {
     height: 24px;
 }
 
+.div_image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .navbar_paragraph {
     font-family: 'Inter';
     font-style: normal;
